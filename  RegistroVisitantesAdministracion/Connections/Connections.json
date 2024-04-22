@@ -1,0 +1,24 @@
+{
+  "aef7e178-9d9d-427a-b5f2-5a5e3878afae": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1682/1.0.1682.3676/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://grouprayogas.sharepoint.com/sites/Rayogas/Tec/SistInf": {
+        "dataSources": {
+          "LISTA REGISTRO VISITANTES ADMINISTRACIÓN": {
+            "tableName": "aeeae8c0-35dd-42b0-ab32-e2998c7be0d8"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "LISTA REGISTRO VISITANTES ADMINISTRACIÓN"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "aef7e178-9d9d-427a-b5f2-5a5e3878afae"
+  }
+}
