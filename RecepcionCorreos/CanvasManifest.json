@@ -118,13 +118,13 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
-    "Name": "APP RECEPCION DE CORREOS",
+    "Name": "APP RECEPCION DE CORREO",
     "OriginatingVersion": "1.336",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "APP RECEPCION DE CORREOS",
+    "AppName": "APP RECEPCION DE CORREO",
     "BackgroundColor": "rgba(141, 198, 63, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "",
