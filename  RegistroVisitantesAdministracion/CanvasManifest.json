@@ -117,7 +117,7 @@
     "Id": "6b7afc59-4fdf-498b-9116-74b0f45c69f2",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "REGISTRO VISITANTES ADMINISTRACION",
     "OriginatingVersion": "1.339",
     "ParserErrorCount": 0,
