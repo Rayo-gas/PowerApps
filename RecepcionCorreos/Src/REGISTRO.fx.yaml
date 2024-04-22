@@ -988,7 +988,7 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(214, 221, 224, 1)
                 FocusedBorderThickness: =4
-                Height: =183
+                Height: =126
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(16, 65, 71, 1)
                 IsInDataCard: =true
@@ -1005,9 +1005,9 @@
                 PaddingTop: =5
                 PressedColor: =RGBA(255, 255, 255, 1)
                 PressedFill: =RGBA(69, 186, 184, 1)
-                Size: =21
+                Size: =16
                 Tooltip: =Parent.DisplayName
-                Width: =461
+                Width: =777
                 X: =30
                 Y: =58
                 ZIndex: =2
