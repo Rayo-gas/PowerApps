@@ -1,0 +1,364 @@
+"INDEX As screen.'phoneBrowseLayout_ver3.0'":
+    BackgroundImage: =img_logo_flame_map
+    Fill: =RGBA(30, 45, 62, 1)
+    LoadingSpinnerColor: =RGBA(0, 188, 242, 1)
+
+    Video1 As videoPlayback:
+        AutoStart: =true
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        Fill: =RGBA(21, 32, 43, 1)
+        Height: =1300
+        ImagePosition: =ImagePosition.Fit
+        Loop: =true
+        Media: =RAYOGAS
+        ShowControls: =false
+        Width: =640
+        ZIndex: =1
+
+    RectQuickActionBar1 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(25, 25, 66, 1)
+        Height: =116
+        Width: =640
+        ZIndex: =2
+
+    LblAppName1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(58, 58, 58, 0)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =56
+        HoverColor: =RGBA(255, 255, 0, 1)
+        Italic: =true
+        Size: =15
+        Text: ="INVENTARIO MTTO CILINDROS"
+        Width: =359
+        Wrap: =false
+        X: =76
+        Y: =32
+        ZIndex: =3
+
+    SearchIcon1 As icon.Search:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        Color: =RGBA(0, 188, 242, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =Self.Width
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Search
+        PaddingBottom: =14
+        PaddingLeft: =14
+        PaddingRight: =14
+        PaddingTop: =14
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Tooltip: ="Buscar"
+        Width: =""
+        X: =""
+        Y: =
+        ZIndex: =4
+
+    Rectangle11 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Fill: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        Height: =2
+        Width: =640
+        Y: =
+        ZIndex: =5
+
+    "GALERIA As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        BorderColor: =RGBA(0, 188, 242, 1)
+        DelayItemLoading: =true
+        Height: =947
+        Items: =InventarioMantenimientoCilindros
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        OnSelect: =Navigate(INDEX, ScreenTransition.None)
+        ShowNavigation: =true
+        TemplatePadding: =0
+        TemplateSize: =157
+        Transition: =Transition.Push
+        Y: =189
+        ZIndex: =6
+
+        Registró As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =51
+            HoverColor: =RGBA(255, 255, 0, 1)
+            OnSelect: =Navigate(VISUALIZACIÓN)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =25
+            Text: =ThisItem.'Realiza Registro'.Value
+            Width: =736
+            X: =16
+            ZIndex: =1
+
+        Fecha As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =43
+            HoverColor: =RGBA(255, 255, 0, 1)
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.'Centro Operacion'.Value
+            Width: =576
+            X: =16
+            Y: =51
+            ZIndex: =2
+
+        Centro_Operación As label:
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            Font: =Font.'Segoe UI'
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =32
+            HoverColor: =RGBA(255, 255, 0, 1)
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =18
+            Text: =ThisItem.'Fecha Creación'
+            Width: =636
+            X: =Registró.X
+            Y: =101
+            ZIndex: =3
+
+        Separator1 As rectangle:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.Dotted
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =2
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        Icon1_1 As icon.NextArrow:
+            BorderColor: =RGBA(85, 106, 129, 1)
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(220, 220, 220, 1)
+            DisabledFill: =RGBA(0, 0, 0, 0)
+            FocusedBorderThickness: =4
+            Height: =58
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(255, 255, 0, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.NextArrow
+            OnSelect: =Navigate(VISUALIZACIÓN)
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+            PressedFill: =RGBA(0, 0, 0, 0)
+            Width: =136
+            X: =504
+            Y: =51
+            ZIndex: =7
+
+        Label2_1 As label:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(255, 255, 255, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(166, 166, 166, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =32
+            HoverColor: =RGBA(255, 255, 0, 1)
+            OnSelect: =Navigate(VISUALIZACIÓN)
+            Size: =21
+            Text: ="Ver"
+            Width: =98
+            X: =542
+            Y: =116
+            ZIndex: =8
+
+    Label1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =49
+        HoverColor: =RGBA(255, 255, 0, 1)
+        OnSelect: =NewForm(EditForm_1);Navigate(REGISTRO, ScreenTransition.None)
+        Size: =10
+        Text: ="Agregar"
+        Width: =61
+        X: =567
+        Y: =58
+        ZIndex: =7
+
+    Icon2 As icon.Add:
+        BorderColor: =RGBA(255, 255, 0, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(255, 0, 0, 1)
+        FocusedBorderThickness: =4
+        Height: =52
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 0, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Add
+        OnSelect: =NewForm(EditForm_1);Navigate(REGISTRO, ScreenTransition.None)
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =40
+        X: =578
+        Y: =21
+        ZIndex: =8
+
+    Icon3 As icon.ArrowsUpDown:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =49
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 0, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Sort
+        OnSelect: |-
+            =UpdateContext({SortDescending1: !SortDescending1})
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =32
+        X: =509
+        Y: =21
+        ZIndex: =9
+
+    Icon4 As icon.Reload:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(220, 220, 220, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =54
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(255, 255, 0, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.Reload
+        OnSelect: =Refresh([@InventarioMantenimientoCilindros])
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =30
+        X: =431
+        Y: =21
+        ZIndex: =10
+
+    Label1_1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =49
+        HoverColor: =RGBA(255, 255, 0, 1)
+        OnSelect: |-
+            =UpdateContext({SortDescending1: !SortDescending1})
+        Size: =10
+        Text: ="Ordenar"
+        Width: =64
+        X: =493
+        Y: =58
+        ZIndex: =11
+
+    Label1_2 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =49
+        HoverColor: =RGBA(255, 255, 0, 1)
+        OnSelect: =Refresh([@InventarioMantenimientoCilindros])
+        Size: =10
+        Text: ="Actualizar"
+        Width: =84
+        X: =414
+        Y: =58
+        ZIndex: =12
+
+    Image6 As image:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        Height: =107
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Image: =CILINDROS
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        Width: =123
+        ZIndex: =13
+
+    Buscar As text:
+        BorderColor: =RGBA(85, 106, 129, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(30, 45, 62, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        Height: =70
+        HintText: ="Buscar"
+        HoverBorderColor: =ColorFade(RGBA(0, 188, 242, 1), 30%)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(30, 45, 62, 1)
+        PressedBorderColor: =RGBA(0, 188, 242, 1)
+        PressedColor: =RGBA(255, 255, 255, 1)
+        PressedFill: =RGBA(30, 45, 62, 1)
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =331
+        X: =5
+        Y: =119
+        ZIndex: =14
+

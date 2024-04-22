@@ -1,0 +1,50 @@
+{
+  "54de6cc3-540f-44cb-839c-8dcd0a35e6cb": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Usuarios de Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "UsuariosdeOffice365",
+      "UsuariosdeOffice365_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "54de6cc3-540f-44cb-839c-8dcd0a35e6cb"
+  },
+  "6f93bc53-3546-4b6e-9349-e39179d86c11": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1682/1.0.1682.3676/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://grouprayogas.sharepoint.com/sites/Rayogas/Op": {
+        "dataSources": {
+          "InventarioMantenimientoCilindros": {
+            "tableName": "b6645f33-1a17-4858-9c14-16cc8efe49df"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "InventarioMantenimientoCilindros"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "6f93bc53-3546-4b6e-9349-e39179d86c11"
+  }
+}
