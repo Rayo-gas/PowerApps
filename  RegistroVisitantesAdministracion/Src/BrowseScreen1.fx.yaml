@@ -107,7 +107,7 @@
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =116
-        Width: =Parent.Width
+        Width: =1058
         ZIndex: =9
 
         Title1 As label:
