@@ -1,0 +1,63 @@
+BIENVENIDOS As screen:
+    Fill: =RGBA(139, 154, 159, 1)
+    LoadingSpinnerColor: =RGBA(3, 121, 137, 1)
+
+    Fondo_Bienvenidos As videoPlayback:
+        AutoStart: =true
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Fill: =RGBA(3, 121, 137, 1)
+        Height: =640
+        Loop: =true
+        Media: =bienvenido
+        ShowControls: =false
+        Width: =1136
+        ZIndex: =1
+
+    Bienvenidos As label:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =165
+        Size: =80
+        Text: ="Bienvenidos"
+        Width: =640
+        X: =228
+        Y: =250
+        ZIndex: =2
+
+    BOTON As button:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(15, 166, 189, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        HoverBorderColor: =RGBA(255, 255, 255, 1)
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(9, 33, 98, 1)
+        OnSelect: =ResetForm(EditForm1);Navigate(REGISTRO,ScreenTransition.Cover)
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =24
+        Text: ="INICIAR"
+        Width: =280
+        X: =428
+        Y: =415
+        ZIndex: =3
+
+    Image10 As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =116
+        Image: =img_logo_flame_map
+        Width: =80
+        X: =844
+        Y: =274
+        ZIndex: =4
+

@@ -1,0 +1,1238 @@
+"REGISTRO As screen.'phoneDetailEditLayout_ver3.0'":
+    BackgroundImage: =
+    Fill: =RGBA(9, 33, 98, 1)
+    LoadingSpinnerColor: =RGBA(3, 121, 137, 1)
+
+    Video4 As videoPlayback:
+        AutoStart: =true
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Fill: =RGBA(3, 121, 137, 1)
+        Height: =640
+        Loop: =true
+        Media: =bienvenido_1
+        ShowControls: =false
+        Width: =1136
+        ZIndex: =1
+
+    RectQuickActionBar3 As rectangle:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Fill: =RGBA(3, 121, 137, 1)
+        Height: =88
+        Visible: =false
+        Width: =400
+        X: =373
+        ZIndex: =2
+
+    LblAppName3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(58, 58, 58, 0)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =88
+        HoverColor: =RGBA(255, 255, 0, 1)
+        Size: =27
+        Text: ="REGISTRO"
+        Width: =219
+        Wrap: =false
+        X: =458
+        ZIndex: =5
+
+    EditForm1 As form:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DataSource: =[@'LISTA DE REGISTROS APP RECEPCIÓN']
+        DefaultMode: =FormMode.New
+        Height: =521
+        Item: =Galeria.Selected
+        NumberOfColumns: =4
+        OnSuccess: =Navigate(ENVIADO)
+        Width: =1096
+        X: =16
+        Y: =119
+        ZIndex: =6
+
+        ID_DataCard1 As typedDataCard.textualViewCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ID"
+            Default: =ThisItem.ID
+            DisplayMode: =DisplayMode.View
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"ID")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =116
+            Required: =false
+            Width: =274
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey16 As label:
+                Align: =Align.Center
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue15 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(69, 186, 184, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =53
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: =Parent.Default
+                Width: =147
+                X: =58
+                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                ZIndex: =2
+
+        "'DE:_DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="DE_x003a_"
+            Default: |-
+                =ThisItem.'DE:'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"DE_x003a_")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =111
+            MaxLength: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'], DataSourceInfo.MaxLength, "DE_x003a_")
+            Required: =false
+            Update: =DataCardValue13.Text
+            Width: =822
+            X: =1
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey14 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =741
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue13 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                HintText: ="Digite Juzgado Emisor"
+                HoverBorderColor: =RGBA(69, 186, 184, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =25
+                RadiusBottomRight: =25
+                RadiusTopLeft: =25
+                RadiusTopRight: =25
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
+                ZIndex: =2
+
+            ErrorMessage11 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue13.Y + DataCardValue13.Height
+                ZIndex: =3
+
+            StarVisible11 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey14.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey14.Y
+                ZIndex: =4
+
+        RADICADO_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="RADICADO"
+            Default: =ThisItem.RADICADO
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"RADICADO")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =129
+            MaxLength: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'], DataSourceInfo.MaxLength, "RADICADO")
+            Required: =false
+            Update: =DataCardValue11.Text
+            Width: =274
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey12 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                HoverColor: =RGBA(255, 255, 0, 1)
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue11 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                HintText: ="N° de Radicado"
+                HoverBorderColor: =RGBA(69, 186, 184, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =25
+                RadiusBottomRight: =25
+                RadiusTopLeft: =25
+                RadiusTopRight: =25
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =246
+                X: =30
+                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
+                ZIndex: =2
+
+            ErrorMessage9 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue11.Y + DataCardValue11.Height
+                ZIndex: =3
+
+            StarVisible9 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey12.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey12.Y
+                ZIndex: =4
+
+        ENTIDAD_DataCard2 As typedDataCard.comboBoxEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ENTIDAD"
+            Default: =ThisItem.ENTIDAD
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"ENTIDAD")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =124
+            Required: =false
+            Update: =DataCardValue6.Selected
+            Width: =822
+            X: =1
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey6 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =45
+                HoverColor: =RGBA(255, 255, 0, 1)
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =185
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue6 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(3, 121, 137, 1)
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(40, 134, 222, 1)
+                ChevronHoverBackground: =RGBA(255, 255, 0, 1)
+                ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                DefaultSelectedItems: =Parent.Default
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["Value"]
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                InputTextPlaceholder: ="Seleccione Entidad"
+                Items: =Choices([@'LISTA DE REGISTROS APP RECEPCIÓN'].ENTIDAD)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(69, 186, 184, 1)
+                SearchFields: =["Value"]
+                SearchItems: =Choices('LISTA DE REGISTROS APP RECEPCIÓN'.ENTIDAD,DataCardValue6.SearchText)
+                SelectionColor: =RGBA(0, 0, 0, 1)
+                SelectionFill: =RGBA(39, 113, 194, 1)
+                SelectMultiple: =false
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =768
+                X: =30
+                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                ZIndex: =2
+
+            ErrorMessage3 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue6.Y + DataCardValue6.Height
+                ZIndex: =3
+
+            StarVisible3 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey6.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey6.Y
+                ZIndex: =4
+
+        FECHA_DataCard2 As typedDataCard.dateTimeEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="FECHA"
+            Default: =ThisItem.'FECHA CREACIÓN'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"FECHA")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =107
+            Required: =true
+            Update: =If(Not IsBlank(DateValue1.SelectedDate), DateValue1.SelectedDate + Time(Value(HourValue1.Selected.Value), Value(MinuteValue1.Selected.Value), 0))
+            Width: =274
+            X: =0
+            Y: =2
+            ZIndex: =1
+
+            DataCardKey10 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                HoverColor: =RGBA(255, 255, 0, 1)
+                Size: =19
+                Text: =Parent.DisplayName
+                Width: =246
+                Wrap: =false
+                X: =30
+                Y: =6
+                ZIndex: =1
+
+            DateValue1 As datepicker:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                CalendarHeaderFill: =RGBA(3, 121, 137, 1)
+                Color: =RGBA(0, 0, 0, 1)
+                DisabledBorderColor: =RGBA(255, 255, 0, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                EndYear: =Year(Today())+6
+                Fill: =RGBA(214, 221, 224, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                HoverDateFill: =RGBA(16, 65, 71, 1)
+                IconBackground: =RGBA(3, 121, 137, 1)
+                IsEditable: =true
+                PaddingBottom: =0
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                SelectedDateFill: =RGBA(3, 121, 137, 1)
+                Size: =14.7
+                StartYear: =2020
+                Tooltip: =Parent.DisplayName
+                Width: =246
+                X: =30
+                Y: =50
+                ZIndex: =2
+
+            HourValue1 As dropdown:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(3, 121, 137, 1)
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(3, 121, 137, 1), -20%)
+                ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                Default: =Text(Hour(Parent.Default),"00")
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                Height: =DateValue1.Height
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                Items: =["00","01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23"]
+                PaddingBottom: =5
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(69, 186, 184, 1)
+                SelectionFill: =RGBA(3, 121, 137, 1)
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Visible: =false
+                Width: =DateValue1.Width / 2 - 10
+                X: =DateValue1.X + DateValue1.Width + 10
+                Y: =DateValue1.Y
+                ZIndex: =3
+
+            Separator2 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(69, 186, 184, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =HourValue1.Height
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =21
+                Text: |-
+                    =":"
+                Visible: =false
+                Width: =10
+                Wrap: =false
+                X: =HourValue1.X + HourValue1.Width
+                Y: =HourValue1.Y
+                ZIndex: =4
+
+            MinuteValue1 As dropdown:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(3, 121, 137, 1)
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(3, 121, 137, 1), -20%)
+                ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                Color: =RGBA(255, 255, 255, 1)
+                Default: =Text(Minute(Parent.Default),"00")
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(0, 0, 0, 1)
+                Height: =HourValue1.Height
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                Items: =["00","01","02","03","04","05","06","07","08","09","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59"]
+                PaddingBottom: =5
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(69, 186, 184, 1)
+                SelectionFill: =RGBA(3, 121, 137, 1)
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Visible: =false
+                Width: =HourValue1.Width
+                X: =HourValue1.X + HourValue1.Width + Separator2.Width
+                Y: =HourValue1.Y
+                ZIndex: =5
+
+            ErrorMessage7 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =HourValue1.Y + HourValue1.Height
+                ZIndex: =6
+
+            StarVisible7 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey10.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey10.Y
+                ZIndex: =7
+
+        REENVIAR_DataCard1 As typedDataCard.comboBoxMultiSelectEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="REENVIAR"
+            Default: =ThisItem.REENVIAR
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"REENVIAR")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue9.SelectedItems
+            Width: =822
+            X: =1
+            Y: =2
+            ZIndex: =1
+
+            DataCardKey9 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                ZIndex: =1
+
+            DataCardValue9 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(3, 121, 137, 1)
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(3, 121, 137, 1), -20%)
+                ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                DefaultSelectedItems: =Parent.Default
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                DisabledFill: =RGBA(71, 158, 245, 1)
+                DisplayFields: =["Value"]
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                Height: =57
+                HoverColor: =RGBA(0, 0, 0, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                InputTextPlaceholder: ="Selecione Remitente"
+                IsSearchable: =false
+                Items: =Choices([@'LISTA DE REGISTROS APP RECEPCIÓN'].REENVIAR)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedColor: =RGBA(0, 0, 0, 1)
+                PressedFill: =RGBA(69, 186, 184, 1)
+                SearchFields: =["Value"]
+                SearchItems: =[]
+                SelectionColor: =RGBA(255, 255, 0, 1)
+                SelectionFill: =RGBA(71, 158, 245, 1)
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                ZIndex: =2
+
+            ErrorMessage6 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue9.Y + DataCardValue9.Height
+                ZIndex: =3
+
+            StarVisible6 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey9.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey9.Y
+                ZIndex: =4
+
+        "'CORREO ENTIDAD_DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="CORREOENTIDAD"
+            Default: =ThisItem.'CORREO ENTIDAD'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"CORREOENTIDAD")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =109
+            MaxLength: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'], DataSourceInfo.MaxLength, "CORREOENTIDAD")
+            Required: =false
+            Update: =DataCardValue17.Text
+            Width: =1096
+            X: =0
+            Y: =3
+            ZIndex: =1
+
+            DataCardKey18 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =990
+                Wrap: =false
+                X: =30
+                ZIndex: =1
+
+            DataCardValue17 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                HintText: ="Digite correo de Entidad Emisora"
+                HoverBorderColor: =RGBA(69, 186, 184, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =25
+                RadiusBottomRight: =25
+                RadiusTopLeft: =25
+                RadiusTopRight: =25
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =48
+                ZIndex: =2
+
+            ErrorMessage13 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue17.Y + DataCardValue17.Height
+                ZIndex: =3
+
+            StarVisible13 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey18.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey18.Y
+                ZIndex: =4
+
+        ASUNTO_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="ASUNTO"
+            Default: =ThisItem.ASUNTO
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"ASUNTO")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =90
+            MaxLength: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'], DataSourceInfo.MaxLength, "ASUNTO")
+            Required: =false
+            Update: =DataCardValue7.Text
+            Width: =1096
+            X: =0
+            Y: =4
+            ZIndex: =1
+
+            DataCardKey7 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                HoverColor: =RGBA(255, 255, 0, 1)
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                ZIndex: =1
+
+            DataCardValue7 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                HoverBorderColor: =RGBA(69, 186, 184, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                MaxLength: =Parent.MaxLength
+                Mode: =TextMode.MultiLine
+                PaddingLeft: =5
+                RadiusBottomLeft: =25
+                RadiusBottomRight: =25
+                RadiusTopLeft: =25
+                RadiusTopRight: =25
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =1044
+                X: =30
+                Y: =44
+                ZIndex: =2
+
+            ErrorMessage4 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue7.Y + DataCardValue7.Height
+                ZIndex: =3
+
+            StarVisible4 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey7.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey7.Y
+                ZIndex: =4
+
+        DESCRIPCION_DataCard2 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="DESCRIPCION"
+            Default: =ThisItem.DESCRIPCION
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"DESCRIPCION")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =209
+            MaxLength: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'], DataSourceInfo.MaxLength, "DESCRIPCION")
+            Required: =false
+            Update: =DataCardValue8.Text
+            Width: =1096
+            X: =0
+            Y: =5
+            ZIndex: =1
+
+            DataCardKey8 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                HoverColor: =RGBA(255, 255, 0, 1)
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue8 As text:
+                Align: =Align.Justify
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                Color: =RGBA(0, 0, 0, 1)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                EnableSpellCheck: =true
+                Fill: =RGBA(214, 221, 224, 1)
+                FocusedBorderThickness: =4
+                FontWeight: =FontWeight.Semibold
+                Height: =256
+                HoverBorderColor: =RGBA(69, 186, 184, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                MaxLength: =Parent.MaxLength
+                Mode: =TextMode.MultiLine
+                PaddingLeft: =5
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey8.Y + DataCardKey8.Height + 5
+                ZIndex: =2
+
+            ErrorMessage5 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue8.Y + DataCardValue8.Height
+                ZIndex: =3
+
+            StarVisible5 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey8.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey8.Y
+                ZIndex: =4
+
+        Control_Cargar_Adjuntos As typedDataCard.attachmentsEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="{Attachments}"
+            Default: =ThisItem.'Datos adjuntos'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"{Attachments}")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =ControlSubidaDocs.Attachments
+            Width: =822
+            X: =0
+            Y: =6
+            ZIndex: =1
+
+            DataCardKey11 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                HoverColor: =RGBA(255, 255, 0, 1)
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ControlSubidaDocs As attachments:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FocusedBorderThickness: =4
+                Height: =183
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                IsInDataCard: =true
+                ItemColor: =RGBA(255, 255, 255, 1)
+                ItemFill: =RGBA(3, 121, 137, 1)
+                ItemHoverColor: =RGBA(255, 255, 255, 1)
+                ItemHoverFill: =RGBA(16, 65, 71, 1)
+                Items: =Parent.Default
+                MaxAttachments: =15
+                MaxAttachmentSize: =20
+                PaddingBottom: =5
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(69, 186, 184, 1)
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =461
+                X: =30
+                Y: =58
+                ZIndex: =2
+
+            ErrorMessage8 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =ControlSubidaDocs.Y + ControlSubidaDocs.Height
+                ZIndex: =3
+
+            StarVisible8 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey11.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey11.Y
+                ZIndex: =4
+
+        Estado_DataCard2 As typedDataCard.comboBoxEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="Estado"
+            Default: =ThisItem.Estado
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"Estado")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            Required: =false
+            Update: =DataCardValue21.Selected
+            Width: =274
+            X: =1
+            Y: =6
+            ZIndex: =1
+
+            DataCardKey23 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =139
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue21 As combobox:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                ChevronBackground: =RGBA(3, 121, 137, 1)
+                ChevronDisabledBackground: =RGBA(166, 166, 166, 1)
+                ChevronDisabledFill: =RGBA(244, 244, 244, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(3, 121, 137, 1), -20%)
+                ChevronHoverFill: =RGBA(255, 255, 255, 1)
+                DefaultSelectedItems: =Parent.Default
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayFields: =["Value"]
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                Height: =70
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                InputTextPlaceholder: ="Seleccionar Estado"
+                Items: =Choices([@'LISTA DE REGISTROS APP RECEPCIÓN'].Estado)
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(69, 186, 184, 1)
+                SearchFields: =["Value"]
+                SearchItems: =Choices('LISTA DE REGISTROS APP RECEPCIÓN'.Estado,DataCardValue21.SearchText)
+                SelectionFill: =RGBA(3, 121, 137, 1)
+                SelectMultiple: =false
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =244
+                Y: =DataCardKey23.Y + DataCardKey23.Height + 5
+                ZIndex: =2
+
+            ErrorMessage15 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue21.Y + DataCardValue21.Height
+                ZIndex: =3
+
+            StarVisible15 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey23.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey23.Y
+                ZIndex: =4
+
+    Enviar_img As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =63
+        Image: =Confirmar
+        OnSelect: =SubmitForm(EditForm1);Navigate(ENVIADO)
+        RadiusBottomLeft: =160
+        RadiusBottomRight: =160
+        RadiusTopLeft: =160
+        RadiusTopRight: =160
+        Width: =65
+        X: =1035
+        Y: =12
+        ZIndex: =7
+
+    Cancelar_img As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =63
+        Image: =Cancelar
+        OnSelect: =Navigate(BIENVENIDOS)
+        RadiusBottomLeft: =160
+        RadiusBottomRight: =160
+        RadiusTopLeft: =160
+        RadiusTopRight: =160
+        Width: =65
+        X: =16
+        Y: =12
+        ZIndex: =8
+
+    lb_enviar As label:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =36
+        HoverColor: =RGBA(255, 255, 0, 1)
+        Size: =15
+        Text: ="Enviar"
+        Width: =82
+        X: =1035
+        Y: =75
+        ZIndex: =9
+
+    lb_cancelar As label:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =36
+        HoverColor: =RGBA(255, 255, 0, 1)
+        OnSelect: =Navigate(BIENVENIDOS)
+        Size: =15
+        Text: ="Cancelar"
+        Width: =102
+        Y: =75
+        ZIndex: =10
+
+    Image20 As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =80
+        Image: =img_logo_flame_map
+        Width: =129
+        X: =630
+        ZIndex: =11
+
+    Image1 As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =63
+        Image: ='Buscar registro'
+        OnSelect: =Navigate('CORREOS REGISTRADOS')
+        RadiusBottomLeft: =165
+        RadiusBottomRight: =165
+        RadiusTopLeft: =165
+        RadiusTopRight: =165
+        Width: =65
+        X: =145
+        Y: =17
+        ZIndex: =12
+
+    lb_cancelar_1 As label:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =36
+        HoverColor: =RGBA(255, 255, 0, 1)
+        OnSelect: =Navigate('CORREOS REGISTRADOS')
+        Size: =15
+        Text: ="Ver Registros"
+        Width: =147
+        X: =104
+        Y: =75
+        ZIndex: =13
+

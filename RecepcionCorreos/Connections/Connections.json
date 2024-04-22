@@ -1,0 +1,122 @@
+{
+  "0d630f1c-2129-49e9-808e-f9bfb5460a39": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1682/1.0.1682.3676/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://grouprayogas.sharepoint.com/sites/Rayogas/Geren": {
+        "dataSources": {
+          "Legal": {
+            "tableName": "45eb9bb8-c1fd-4a90-bda6-ff9934d31703"
+          }
+        }
+      },
+      "https://grouprayogas.sharepoint.com/sites/Rayogas/Tec/SistInf": {
+        "dataSources": {
+          "LISTA DE REGISTROS APP RECEPCIÓN": {
+            "tableName": "dfa47056-f80f-4b6b-89f3-c0513b28d28a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "LISTA DE REGISTROS APP RECEPCIÓN",
+      "Legal"
+    ],
+    "dependencies": {},
+    "dependents": [
+      "79e9805a-0bf7-4249-a926-65ce869ba1ee"
+    ],
+    "id": "0d630f1c-2129-49e9-808e-f9bfb5460a39"
+  },
+  "2b9e7afc-db66-4728-99cd-4c82126c0169": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office\u00A0365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "2b9e7afc-db66-4728-99cd-4c82126c0169"
+  },
+  "4626cb3b-d222-4e9a-8dbd-6a848ad32a25": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Usuarios de Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1677/1.0.1677.3637/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "UsuariosdeOffice365"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4626cb3b-d222-4e9a-8dbd-6a848ad32a25"
+  },
+  "79e9805a-0bf7-4249-a926-65ce869ba1ee": {
+    "appActions": [
+      "Run"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Flujos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1680/1.0.1680.3652/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "0d630f1c-2129-49e9-808e-f9bfb5460a39": {
+          "value": "shared_sharepointonline"
+        },
+        "workflowDisplayName": {
+          "value": "Subida de Documentos"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "599e5e8d-aa18-477b-bb71-8ea4c462f10f"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_sharepointonline": {
+          "value": "0d630f1c-2129-49e9-808e-f9bfb5460a39"
+        },
+        "workflowDisplayName": {
+          "value": "Subida de Documentos"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "599e5e8d-aa18-477b-bb71-8ea4c462f10f"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "SubidadeDocumentos"
+    ],
+    "dependencies": {
+      "shared_sharepointonline": "0d630f1c-2129-49e9-808e-f9bfb5460a39"
+    },
+    "dependents": [],
+    "id": "79e9805a-0bf7-4249-a926-65ce869ba1ee"
+  }
+}

@@ -1,0 +1,337 @@
+"RESPUESTA As screen.'phoneDetailEditLayout_ver3.0'":
+    BackgroundImage: =
+    Fill: =RGBA(9, 33, 98, 1)
+    LoadingSpinnerColor: =RGBA(3, 121, 137, 1)
+
+    Video4_1 As videoPlayback:
+        AutoStart: =true
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Fill: =RGBA(3, 121, 137, 1)
+        Height: =640
+        Loop: =true
+        Media: =bienvenido_1
+        ShowControls: =false
+        Width: =1136
+        ZIndex: =1
+
+    RectQuickActionBar3_1 As rectangle:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Fill: =RGBA(3, 121, 137, 1)
+        Height: =88
+        Visible: =false
+        Width: =400
+        X: =373
+        ZIndex: =2
+
+    LblAppName3_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Fill: =RGBA(58, 58, 58, 0)
+        Font: =Font.'Lato Black'
+        FontWeight: =FontWeight.Bold
+        Height: =88
+        HoverColor: =RGBA(255, 255, 0, 1)
+        Size: =27
+        Text: ="REGISTRO"
+        Width: =219
+        Wrap: =false
+        X: =458
+        ZIndex: =5
+
+    Enviar_img_1 As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =63
+        Image: =Confirmar
+        OnSelect: =SubmitForm(EditForm1)
+        RadiusBottomLeft: =160
+        RadiusBottomRight: =160
+        RadiusTopLeft: =160
+        RadiusTopRight: =160
+        Width: =65
+        X: =1035
+        Y: =12
+        ZIndex: =7
+
+    Cancelar_img_1 As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =63
+        Image: =Cancelar
+        OnSelect: =Navigate(BIENVENIDOS)
+        RadiusBottomLeft: =160
+        RadiusBottomRight: =160
+        RadiusTopLeft: =160
+        RadiusTopRight: =160
+        Width: =65
+        X: =16
+        Y: =12
+        ZIndex: =8
+
+    lb_enviar_1 As label:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =36
+        HoverColor: =RGBA(255, 255, 0, 1)
+        Size: =15
+        Text: ="Enviar"
+        Width: =82
+        X: =1035
+        Y: =75
+        ZIndex: =9
+
+    lb_cancelar_4 As label:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =36
+        HoverColor: =RGBA(255, 255, 0, 1)
+        OnSelect: =Navigate(BIENVENIDOS)
+        Size: =15
+        Text: ="Cancelar"
+        Width: =102
+        Y: =75
+        ZIndex: =10
+
+    Image20_1 As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =80
+        Image: =img_logo_flame_map
+        Width: =129
+        X: =630
+        ZIndex: =11
+
+    Image1_3 As image:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =63
+        Image: ='Buscar registro'
+        OnSelect: =Navigate('CORREOS REGISTRADOS')
+        RadiusBottomLeft: =165
+        RadiusBottomRight: =165
+        RadiusTopLeft: =165
+        RadiusTopRight: =165
+        Width: =65
+        X: =145
+        Y: =17
+        ZIndex: =12
+
+    lb_cancelar_5 As label:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =36
+        HoverColor: =RGBA(255, 255, 0, 1)
+        OnSelect: =Navigate('CORREOS REGISTRADOS')
+        Size: =15
+        Text: ="Ver Registros"
+        Width: =147
+        X: =104
+        Y: =75
+        ZIndex: =13
+
+    Form1 As form.PowerApps_CoreControls_Form:
+        BorderColor: =RGBA(69, 186, 184, 1)
+        DataSource: ='LISTA DE REGISTROS APP RECEPCIÓN'
+        DefaultMode: =FormMode.New
+        Height: =483
+        UseFluentV9Cards: =true
+        Width: =1015
+        X: =40
+        Y: =111
+        ZIndex: =14
+
+        RESPUESTA_DataCard1 As typedDataCard.fluentV9TextualEditCard:
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="RESPUESTA"
+            Default: =ThisItem.RESPUESTA
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"RESPUESTA")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =70
+            MaxLength: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'], DataSourceInfo.MaxLength, "RESPUESTA")
+            Required: =false
+            Update: =DataCardValue26.Value
+            Width: =1015
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DataCardKey28 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                Font: =Font.'Lato Black'
+                FontColor: =RGBA(255, 255, 255, 1)
+                Height: =45
+                Size: =20
+                Text: =Parent.DisplayName
+                Weight: ='TextCanvas.Weight'.Bold
+                Width: =478
+                Wrap: =false
+                X: =24
+                Y: =10
+                ZIndex: =1
+
+            "DataCardValue26 As 'Entrada de texto'":
+                AccessibleLabel: =Parent.DisplayName
+                BasePaletteColor: =RGBA(214, 221, 224, 1)
+                DisplayMode: =Parent.DisplayMode
+                FontColor: =RGBA(0, 0, 0, 1)
+                Height: =255
+                Mode: ='TextInputCanvas.Mode'.Multiline
+                Required: =Parent.Required
+                ValidationState: =If(IsBlank(Parent.Error), "None", "Error")
+                Value: =Parent.Default
+                Width: =Parent.Width - 48
+                X: =24
+                Y: =DataCardKey28.Y + DataCardKey28.Height + 4
+                ZIndex: =2
+
+            ErrorMessage21 As Texto:
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =
+                Height: =30
+                Text: =Parent.Error
+                Visible: =And(!IsBlank(Parent.Error), Parent.DisplayMode=DisplayMode.Edit)
+                Width: =Parent.Width - 48
+                Wrap: =true
+                X: =24
+                Y: =DataCardValue26.Y + DataCardValue26.Height
+                ZIndex: =3
+
+            StarVisible21 As Texto:
+                Align: ='TextCanvas.Align'.Center
+                DisplayMode: =DisplayMode.Edit
+                FontColor: =
+                Height: =30
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                X: =0
+                Y: =DataCardKey28.Y
+                ZIndex: =4
+
+        "'Datos adjuntos_DataCard1' As typedDataCard.attachmentsEditCard":
+            BorderColor: =RGBA(69, 186, 184, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="{Attachments}"
+            Default: =ThisItem.'Datos adjuntos'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA DE REGISTROS APP RECEPCIÓN'],DataSourceInfo.DisplayName,"{Attachments}")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =367
+            Required: =false
+            Update: =ControlAdjuntos.Attachments
+            Width: =1015
+            X: =0
+            Y: =1
+            ZIndex: =1
+
+            DataCardKey29 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 255, 255, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Font: =Font.'Lato Black'
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ControlAdjuntos As attachments:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderThickness: =2
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(214, 221, 224, 1)
+                FocusedBorderThickness: =4
+                Height: =163
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(16, 65, 71, 1)
+                IsInDataCard: =true
+                ItemColor: =RGBA(255, 255, 255, 1)
+                ItemFill: =RGBA(3, 121, 137, 1)
+                ItemHoverColor: =RGBA(255, 255, 255, 1)
+                ItemHoverFill: =RGBA(16, 65, 71, 1)
+                Items: =Parent.Default
+                PaddingBottom: =5
+                PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                PaddingRight: =5
+                PaddingTop: =5
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(69, 186, 184, 1)
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =476
+                X: =35
+                Y: =58
+                ZIndex: =2
+
+            ErrorMessage22 As label:
+                AutoHeight: =true
+                Color: =RGBA(255, 51, 51, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =ControlAdjuntos.Y + ControlAdjuntos.Height
+                ZIndex: =3
+
+            StarVisible22 As label:
+                Align: =Align.Center
+                Color: =RGBA(69, 186, 184, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                Height: =DataCardKey29.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey29.Y
+                ZIndex: =4
+
+            BOTON_2 As button:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                DisabledBorderColor: =RGBA(166, 166, 166, 1)
+                DisabledColor: =RGBA(166, 166, 166, 1)
+                DisabledFill: =RGBA(244, 244, 244, 1)
+                Fill: =RGBA(15, 166, 189, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =46
+                HoverBorderColor: =RGBA(255, 255, 255, 1)
+                HoverColor: =RGBA(255, 255, 255, 1)
+                HoverFill: =RGBA(9, 33, 98, 1)
+                OnSelect: |-
+                    =SubidadeDocumentos.Run({contentBytes:First(ControlAdjuntos.Attachments).Value,name:First(ControlAdjuntos.Attachments).Name})
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Size: =10
+                Text: ="Subir Archivos a Intranet"
+                Width: =115
+                X: =553
+                Y: =116
+                ZIndex: =5
+
