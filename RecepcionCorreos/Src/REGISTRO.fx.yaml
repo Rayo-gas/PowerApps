@@ -89,15 +89,15 @@
                 DisplayMode: =Parent.DisplayMode
                 Fill: =RGBA(214, 221, 224, 1)
                 FontWeight: =FontWeight.Bold
-                Height: =53
+                Height: =47
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
                 Size: =21
                 Text: =Parent.Default
-                Width: =147
-                X: =58
-                Y: =DataCardKey16.Y + DataCardKey16.Height + 5
+                Width: =241
+                X: =30
+                Y: =69
                 ZIndex: =2
 
         "'DE:_DataCard1' As typedDataCard.textualEditCard":
