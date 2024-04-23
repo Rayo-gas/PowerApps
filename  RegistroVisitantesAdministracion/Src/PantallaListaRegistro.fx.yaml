@@ -1,4 +1,4 @@
-"DetailScreen1 As screen.'phoneDetailViewLayout_ver3.0'":
+"PantallaListaRegistro As screen.'phoneDetailViewLayout_ver3.0'":
 
     RectQuickActionBar2 As rectangle:
         Height: =88
@@ -9,7 +9,7 @@
         AccessibleLabel: =Self.Tooltip
         Height: =88
         Icon: =Icon.ChevronLeft
-        OnSelect: =Navigate(BrowseScreen1, ScreenTransition.None)
+        OnSelect: =Navigate(PantallaBuscar, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
@@ -24,7 +24,7 @@
         DisplayMode: =If(DataSourceInfo([@'LISTA REGISTRO VISITANTES ADMINISTRACIÓN'], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Edit
-        OnSelect: =EditForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+        OnSelect: =EditForm(EditForm1);Navigate(PantallaRegistro, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24

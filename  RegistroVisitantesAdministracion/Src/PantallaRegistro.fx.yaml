@@ -1,4 +1,4 @@
-"EditScreen1 As screen.'phoneDetailEditLayout_ver3.0'":
+"PantallaRegistro As screen.'phoneDetailEditLayout_ver3.0'":
 
     Video1 As videoPlayback:
         AutoStart: =true
@@ -347,82 +347,6 @@
                 Y: =DataCardKey9.Y
                 ZIndex: =4
 
-        "'NOMBRE / APELLIDO_DataCard2' As typedDataCard.textualEditCard":
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="NOMBRE_x002f_APELLIDO"
-            Default: =ThisItem.'NOMBRE / APELLIDO'
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@'LISTA REGISTRO VISITANTES ADMINISTRACIÓN'],DataSourceInfo.DisplayName,"NOMBRE_x002f_APELLIDO")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@'LISTA REGISTRO VISITANTES ADMINISTRACIÓN'], DataSourceInfo.MaxLength, "NOMBRE_x002f_APELLIDO")
-            Required: =false
-            Update: =DataCardValue9.Text
-            Width: =568
-            X: =0
-            Y: =2
-            ZIndex: =1
-
-            DataCardKey10 As label:
-                AutoHeight: =true
-                Color: =RGBA(0, 0, 0, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =802
-                Wrap: =false
-                X: =30
-                Y: =10
-                ZIndex: =1
-
-            DataCardValue9 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisplayMode: =Parent.DisplayMode
-                Fill: =RGBA(237, 237, 237, 1)
-                Height: =48
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
-                ZIndex: =2
-
-            ErrorMessage5 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue9.Y + DataCardValue9.Height
-                ZIndex: =3
-
-            StarVisible5 As label:
-                Align: =Align.Center
-                Height: =DataCardKey10.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey10.Y
-                ZIndex: =4
-
         ÁREA_DataCard2 As typedDataCard.comboBoxEditCard:
             BorderStyle: =BorderStyle.Solid
             DataField: ="OData__x00c1_REA"
@@ -504,6 +428,82 @@
                 Width: =30
                 Wrap: =false
                 Y: =DataCardKey11.Y
+                ZIndex: =4
+
+        "'NOMBRE / APELLIDO_DataCard2' As typedDataCard.textualEditCard":
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="NOMBRE_x002f_APELLIDO"
+            Default: =ThisItem.'NOMBRE / APELLIDO'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@'LISTA REGISTRO VISITANTES ADMINISTRACIÓN'],DataSourceInfo.DisplayName,"NOMBRE_x002f_APELLIDO")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@'LISTA REGISTRO VISITANTES ADMINISTRACIÓN'], DataSourceInfo.MaxLength, "NOMBRE_x002f_APELLIDO")
+            Required: =false
+            Update: =DataCardValue9.Text
+            Width: =568
+            X: =0
+            Y: =2
+            ZIndex: =1
+
+            DataCardKey10 As label:
+                AutoHeight: =true
+                Color: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =802
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue9 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Fill: =RGBA(237, 237, 237, 1)
+                Height: =48
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                ZIndex: =2
+
+            ErrorMessage5 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue9.Y + DataCardValue9.Height
+                ZIndex: =3
+
+            StarVisible5 As label:
+                Align: =Align.Center
+                Height: =DataCardKey10.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey10.Y
                 ZIndex: =4
 
         "'CITADO POR_DataCard2' As typedDataCard.textualEditCard":

@@ -135,8 +135,8 @@
     "UserLocale": "es-ES"
   },
   "ScreenOrder": [
-    "BrowseScreen1",
-    "DetailScreen1",
-    "EditScreen1"
+    "PantallaBuscar",
+    "PantallaListaRegistro",
+    "PantallaRegistro"
   ]
 }
