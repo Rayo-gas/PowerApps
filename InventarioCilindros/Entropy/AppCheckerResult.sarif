@@ -14,6 +14,1206 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.Label1_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.Label1_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Registró:_DataCard1_1'.DataCardValue1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Registró:_DataCard1_1'.DataCardValue1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Registró:_DataCard1_1'.DataCardValue1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Cargo_DataCard1_1.DataCardValue5_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Cargo_DataCard1_1.DataCardValue5_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.Cargo_DataCard1_1.DataCardValue5_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Centro Operacion_DataCard2_1'.DataCardValue9_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Centro Operacion_DataCard2_1'.DataCardValue9_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Centro Operacion_DataCard2_1'.DataCardValue9_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Fecha Creacion_DataCard2_1'.DataCardValue10_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Fecha Creacion_DataCard2_1'.DataCardValue10_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Fecha Creacion_DataCard2_1'.DataCardValue10_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados_DataCard1_1'.DataCardValue3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados_DataCard1_1'.DataCardValue3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados_DataCard1_1'.DataCardValue3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (1)_DataCard1_1'.DataCardValue2_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (1)_DataCard1_1'.DataCardValue2_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad (1)_DataCard1_1'.DataCardValue2_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados (2)_DataCard1_1'.DataCardValue7_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados (2)_DataCard1_1'.DataCardValue7_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados (2)_DataCard1_1'.DataCardValue7_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (2)_DataCard1_1'.DataCardValue4_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (2)_DataCard1_1'.DataCardValue4_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad (2)_DataCard1_1'.DataCardValue4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros lavados (3)_DataCard1_1'.DataCardValue8_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros lavados (3)_DataCard1_1'.DataCardValue8_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros lavados (3)_DataCard1_1'.DataCardValue8_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (3)_DataCard1_1'.DataCardValue6_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (3)_DataCard1_1'.DataCardValue6_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad (3)_DataCard1_1'.DataCardValue6_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [1]_DataCard1_1'.DataCardValue11_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [1]_DataCard1_1'.DataCardValue11_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [1]_DataCard1_1'.DataCardValue11_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [1]_DataCard1_1'.DataCardValue12_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [1]_DataCard1_1'.DataCardValue12_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad [1]_DataCard1_1'.DataCardValue12_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [2]_DataCard1_1'.DataCardValue13_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [2]_DataCard1_1'.DataCardValue13_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [2]_DataCard1_1'.DataCardValue13_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [2]_DataCard1_1'.DataCardValue16_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [2]_DataCard1_1'.DataCardValue16_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad [2]_DataCard1_1'.DataCardValue16_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [3]_DataCard1_1'.DataCardValue17_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [3]_DataCard1_1'.DataCardValue17_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [3]_DataCard1_1'.DataCardValue17_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [3]_DataCard1_1'.DataCardValue18_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [3]_DataCard1_1'.DataCardValue18_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad [3]_DataCard1_1'.DataCardValue18_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Turno_DataCard2_1.DataCardValue14_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Turno_DataCard2_1.DataCardValue14_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.Turno_DataCard2_1.DataCardValue14_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Datos adjuntos_DataCard1_1'.DataCardValue15_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Datos adjuntos_DataCard1_1'.DataCardValue15_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "VISUALIZACIÓN",
+                "type": "VISUALIZACIÓN.EditForm_2.'Datos adjuntos_DataCard1_1'.DataCardValue15_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.Label1_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.Label1_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "REGISTRO",
+                "type": "REGISTRO.Label1_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.Label1_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.Label1_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "REGISTRO",
+                "type": "REGISTRO.Label1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Registró:_DataCard1'.DataCardValue1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Registró:_DataCard1'.DataCardValue1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Registró:_DataCard1'.DataCardValue1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.Cargo_DataCard1.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.Cargo_DataCard1.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.Cargo_DataCard1.DataCardValue5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Centro Operacion_DataCard2'.DataCardValue9.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Centro Operacion_DataCard2'.DataCardValue9.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Centro Operacion_DataCard2'.DataCardValue9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Fecha Creacion_DataCard2'.DataCardValue10.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Fecha Creacion_DataCard2'.DataCardValue10.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Fecha Creacion_DataCard2'.DataCardValue10"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados_DataCard1'.DataCardValue3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados_DataCard1'.DataCardValue3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cilindros Lavados_DataCard1'.DataCardValue3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (1)_DataCard1'.DataCardValue2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (1)_DataCard1'.DataCardValue2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cantidad (1)_DataCard1'.DataCardValue2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados (2)_DataCard1'.DataCardValue7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados (2)_DataCard1'.DataCardValue7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cilindros Lavados (2)_DataCard1'.DataCardValue7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (2)_DataCard1'.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (2)_DataCard1'.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cantidad (2)_DataCard1'.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros lavados (3)_DataCard1'.DataCardValue8.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros lavados (3)_DataCard1'.DataCardValue8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cilindros lavados (3)_DataCard1'.DataCardValue8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (3)_DataCard1'.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (3)_DataCard1'.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cantidad (3)_DataCard1'.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [1]_DataCard1'.DataCardValue11.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [1]_DataCard1'.DataCardValue11.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cilindros Pintados [1]_DataCard1'.DataCardValue11"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [1]_DataCard1'.DataCardValue12.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [1]_DataCard1'.DataCardValue12.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cantidad [1]_DataCard1'.DataCardValue12"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [2]_DataCard1'.DataCardValue13.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [2]_DataCard1'.DataCardValue13.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cilindros Pintados [2]_DataCard1'.DataCardValue13"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [2]_DataCard1'.DataCardValue16.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [2]_DataCard1'.DataCardValue16.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cantidad [2]_DataCard1'.DataCardValue16"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [3]_DataCard1'.DataCardValue17.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [3]_DataCard1'.DataCardValue17.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cilindros Pintados [3]_DataCard1'.DataCardValue17"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [3]_DataCard1'.DataCardValue18.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [3]_DataCard1'.DataCardValue18.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Cantidad [3]_DataCard1'.DataCardValue18"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.Turno_DataCard2.DataCardValue14.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.Turno_DataCard2.DataCardValue14.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.Turno_DataCard2.DataCardValue14"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Datos adjuntos_DataCard1'.DataCardValue15.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Datos adjuntos_DataCard1'.DataCardValue15.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "REGISTRO",
+                "type": "REGISTRO.EditForm_1.'Datos adjuntos_DataCard1'.DataCardValue15"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "INDEX.Video1.ClosedCaptionsUrl"
                 }
               ],
@@ -37,7 +1237,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-CaptionsNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -67,7 +1267,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AutostartShouldBeOff",
-          "ruleIndex": 1
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -97,7 +1297,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -127,7 +1327,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-HelpfulControlSettingNeeded",
-          "ruleIndex": 3
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -157,7 +1357,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -187,7 +1387,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -217,7 +1417,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -247,7 +1447,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -277,7 +1477,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -307,7 +1507,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -337,7 +1537,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -367,7 +1567,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -397,7 +1597,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -427,7 +1627,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -457,7 +1657,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -487,7 +1687,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -547,7 +1747,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -577,7 +1777,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -607,7 +1807,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -637,1207 +1837,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.Label1_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.Label1_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "REGISTRO",
-                "type": "REGISTRO.Label1_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.Label1_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.Label1_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "REGISTRO",
-                "type": "REGISTRO.Label1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Registró:_DataCard1'.DataCardValue1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Registró:_DataCard1'.DataCardValue1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Registró:_DataCard1'.DataCardValue1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.Cargo_DataCard1.DataCardValue5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.Cargo_DataCard1.DataCardValue5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.Cargo_DataCard1.DataCardValue5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Centro Operacion_DataCard2'.DataCardValue9.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Centro Operacion_DataCard2'.DataCardValue9.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Centro Operacion_DataCard2'.DataCardValue9"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Fecha Creacion_DataCard2'.DataCardValue10.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Fecha Creacion_DataCard2'.DataCardValue10.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Fecha Creacion_DataCard2'.DataCardValue10"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados_DataCard1'.DataCardValue3.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados_DataCard1'.DataCardValue3.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cilindros Lavados_DataCard1'.DataCardValue3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (1)_DataCard1'.DataCardValue2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (1)_DataCard1'.DataCardValue2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cantidad (1)_DataCard1'.DataCardValue2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados (2)_DataCard1'.DataCardValue7.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Lavados (2)_DataCard1'.DataCardValue7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cilindros Lavados (2)_DataCard1'.DataCardValue7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (2)_DataCard1'.DataCardValue4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (2)_DataCard1'.DataCardValue4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cantidad (2)_DataCard1'.DataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros lavados (3)_DataCard1'.DataCardValue8.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros lavados (3)_DataCard1'.DataCardValue8.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cilindros lavados (3)_DataCard1'.DataCardValue8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (3)_DataCard1'.DataCardValue6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad (3)_DataCard1'.DataCardValue6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cantidad (3)_DataCard1'.DataCardValue6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [1]_DataCard1'.DataCardValue11.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [1]_DataCard1'.DataCardValue11.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cilindros Pintados [1]_DataCard1'.DataCardValue11"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [1]_DataCard1'.DataCardValue12.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [1]_DataCard1'.DataCardValue12.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cantidad [1]_DataCard1'.DataCardValue12"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [2]_DataCard1'.DataCardValue13.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [2]_DataCard1'.DataCardValue13.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cilindros Pintados [2]_DataCard1'.DataCardValue13"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [2]_DataCard1'.DataCardValue16.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [2]_DataCard1'.DataCardValue16.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cantidad [2]_DataCard1'.DataCardValue16"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [3]_DataCard1'.DataCardValue17.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cilindros Pintados [3]_DataCard1'.DataCardValue17.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cilindros Pintados [3]_DataCard1'.DataCardValue17"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [3]_DataCard1'.DataCardValue18.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Cantidad [3]_DataCard1'.DataCardValue18.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Cantidad [3]_DataCard1'.DataCardValue18"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.Turno_DataCard2.DataCardValue14.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.Turno_DataCard2.DataCardValue14.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.Turno_DataCard2.DataCardValue14"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Datos adjuntos_DataCard1'.DataCardValue15.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "REGISTRO.EditForm_1.'Datos adjuntos_DataCard1'.DataCardValue15.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "REGISTRO",
-                "type": "REGISTRO.EditForm_1.'Datos adjuntos_DataCard1'.DataCardValue15"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_5.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.Label1_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_6.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.Label1_6.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.Label1_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Registró:_DataCard1_1'.DataCardValue1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Registró:_DataCard1_1'.DataCardValue1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Registró:_DataCard1_1'.DataCardValue1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Cargo_DataCard1_1.DataCardValue5_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Cargo_DataCard1_1.DataCardValue5_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.Cargo_DataCard1_1.DataCardValue5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Centro Operacion_DataCard2_1'.DataCardValue9_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Centro Operacion_DataCard2_1'.DataCardValue9_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Centro Operacion_DataCard2_1'.DataCardValue9_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Fecha Creacion_DataCard2_1'.DataCardValue10_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Fecha Creacion_DataCard2_1'.DataCardValue10_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Fecha Creacion_DataCard2_1'.DataCardValue10_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados_DataCard1_1'.DataCardValue3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados_DataCard1_1'.DataCardValue3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados_DataCard1_1'.DataCardValue3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (1)_DataCard1_1'.DataCardValue2_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (1)_DataCard1_1'.DataCardValue2_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad (1)_DataCard1_1'.DataCardValue2_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados (2)_DataCard1_1'.DataCardValue7_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados (2)_DataCard1_1'.DataCardValue7_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Lavados (2)_DataCard1_1'.DataCardValue7_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (2)_DataCard1_1'.DataCardValue4_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (2)_DataCard1_1'.DataCardValue4_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad (2)_DataCard1_1'.DataCardValue4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros lavados (3)_DataCard1_1'.DataCardValue8_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros lavados (3)_DataCard1_1'.DataCardValue8_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros lavados (3)_DataCard1_1'.DataCardValue8_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (3)_DataCard1_1'.DataCardValue6_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad (3)_DataCard1_1'.DataCardValue6_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad (3)_DataCard1_1'.DataCardValue6_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [1]_DataCard1_1'.DataCardValue11_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [1]_DataCard1_1'.DataCardValue11_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [1]_DataCard1_1'.DataCardValue11_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [1]_DataCard1_1'.DataCardValue12_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [1]_DataCard1_1'.DataCardValue12_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad [1]_DataCard1_1'.DataCardValue12_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [2]_DataCard1_1'.DataCardValue13_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [2]_DataCard1_1'.DataCardValue13_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [2]_DataCard1_1'.DataCardValue13_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [2]_DataCard1_1'.DataCardValue16_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [2]_DataCard1_1'.DataCardValue16_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad [2]_DataCard1_1'.DataCardValue16_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [3]_DataCard1_1'.DataCardValue17_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [3]_DataCard1_1'.DataCardValue17_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cilindros Pintados [3]_DataCard1_1'.DataCardValue17_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [3]_DataCard1_1'.DataCardValue18_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Cantidad [3]_DataCard1_1'.DataCardValue18_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Cantidad [3]_DataCard1_1'.DataCardValue18_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Turno_DataCard2_1.DataCardValue14_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.Turno_DataCard2_1.DataCardValue14_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.Turno_DataCard2_1.DataCardValue14_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Datos adjuntos_DataCard1_1'.DataCardValue15_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "VISUALIZACIÓN.EditForm_2.'Datos adjuntos_DataCard1_1'.DataCardValue15_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "VISUALIZACIÓN",
-                "type": "VISUALIZACIÓN.EditForm_2.'Datos adjuntos_DataCard1_1'.DataCardValue15_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1966,6 +1966,40 @@
           "name": "PowerApps app checker",
           "rules": [
             {
+              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing tab stop"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-AccessibleLabelNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Missing accessible label"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Edit the accessible label property to describe the item."
+                ],
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+              }
+            },
+            {
               "id": "acc-CaptionsNeeded",
               "messageStrings": {
                 "issue": {
@@ -2000,23 +2034,6 @@
               }
             },
             {
-              "id": "acc-AccessibleLabelNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing accessible label"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit the accessible label property to describe the item."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
-              }
-            },
-            {
               "id": "acc-HelpfulControlSettingNeeded",
               "messageStrings": {
                 "issue": {
@@ -2031,23 +2048,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "Changing this property setting will give the user better information about the function of the controls in your app."
-              }
-            },
-            {
-              "id": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing tab stop"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Set TabIndex to 0 or greater to ensure that interactive elements have a tab stop."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
               }
             },
             {
@@ -2085,7 +2085,7 @@
               }
             }
           ],
-          "version": "1.339"
+          "version": "1.341"
         }
       }
     }

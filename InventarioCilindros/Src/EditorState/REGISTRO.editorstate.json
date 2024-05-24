@@ -21,8 +21,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "true",
           "InvariantPropertyName": "Required",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -66,7 +66,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "",
       "Name": "Cantidad (1)_DataCard1",
@@ -87,7 +87,7 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -465,8 +465,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "true",
           "InvariantPropertyName": "Required",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -531,7 +531,7 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -1683,8 +1683,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "true",
           "InvariantPropertyName": "Required",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -1757,7 +1757,7 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",
@@ -5039,7 +5039,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldName.ID%",
       "Name": "DataCardKey2",
@@ -10984,7 +10984,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldValue.ID%",
       "Name": "DataCardValue2",
@@ -16919,7 +16919,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%ErrorMessage.ID%",
       "Name": "ErrorMessage2",
@@ -23457,7 +23457,7 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "vertical",
       "MetaDataIDKey": "%FieldRequired.ID%",
       "Name": "StarVisible2",
@@ -25669,8 +25669,8 @@
         },
         {
           "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": true,
-          "AutoRuleBindingString": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "true",
           "InvariantPropertyName": "Required",
           "IsLockable": true,
           "NameMapSourceSchema": "?"
@@ -25742,7 +25742,7 @@
         {
           "Category": "Data",
           "PropertyName": "Required",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "User"
         },
         {
           "Category": "Data",

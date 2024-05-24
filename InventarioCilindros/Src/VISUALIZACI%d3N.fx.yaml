@@ -85,7 +85,7 @@
             DataField: ="Registr_x00f3__x003a_"
             Default: =ThisItem.'Realiza Registro'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Registr_x00f3__x003a_")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Realiza Registro')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =135
             Required: =true
@@ -210,7 +210,7 @@
             DataField: ="Cargo"
             Default: =ThisItem.Cargo
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cargo")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,Cargo)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -333,7 +333,7 @@
             DataField: ="CENTROOPERACION"
             Default: =ThisItem.'Centro Operacion'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"CENTROOPERACION")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Centro Operacion')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =140
             Required: =true
@@ -457,7 +457,7 @@
             DataField: ="FechaCreacion"
             Default: =ThisItem.'Fecha Creación'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"FechaCreacion")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Fecha Creación')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -570,7 +570,7 @@
             DataField: ="CilindrosLavados"
             Default: =ThisItem.'Cilindros Lavados (1)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"CilindrosLavados")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cilindros Lavados (1)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -691,7 +691,7 @@
             DataField: ="Cantidad"
             Default: =ThisItem.'Cantidad (1)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cantidad")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cantidad (1)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -807,7 +807,7 @@
             DataField: ="CilindrosLavados2"
             Default: =ThisItem.'Cilindros Lavados (2)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"CilindrosLavados2")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cilindros Lavados (2)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -928,7 +928,7 @@
             DataField: ="Cantidad2"
             Default: =ThisItem.'Cantidad (2)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cantidad2")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cantidad (2)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1044,7 +1044,7 @@
             DataField: ="Cilindroslavados3"
             Default: =ThisItem.'Cilindros lavados (3)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cilindroslavados3")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cilindros lavados (3)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1165,7 +1165,7 @@
             DataField: ="Cantidad3"
             Default: =ThisItem.'Cantidad (3)'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cantidad3")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cantidad (3)')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1281,7 +1281,7 @@
             DataField: ="CilindrosPintados_x0028_1_x0029_"
             Default: =ThisItem.'Cilindros Pintados [1]'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"CilindrosPintados_x0028_1_x0029_")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cilindros Pintados [1]')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -1402,7 +1402,7 @@
             DataField: ="Cantidad_x005b_1_x005d_"
             Default: =ThisItem.'Cantidad [1]'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cantidad_x005b_1_x005d_")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cantidad [1]')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =true
@@ -1518,7 +1518,7 @@
             DataField: ="CilindrosPintados_x005b_2_x005d_"
             Default: =ThisItem.'Cilindros Pintados [2]'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"CilindrosPintados_x005b_2_x005d_")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cilindros Pintados [2]')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1639,7 +1639,7 @@
             DataField: ="Cantidad_x005b_2_x005d_"
             Default: =ThisItem.'Cantidad [2]'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cantidad_x005b_2_x005d_")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cantidad [2]')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1755,7 +1755,7 @@
             DataField: ="CilindrosPintados_x005b_3_x005d_"
             Default: =ThisItem.'Cilindros Pintados [3]'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"CilindrosPintados_x005b_3_x005d_")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cilindros Pintados [3]')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1876,7 +1876,7 @@
             DataField: ="Cantidad_x005b_3_x005d_"
             Default: =ThisItem.'Cantidad [3]'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Cantidad_x005b_3_x005d_")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Cantidad [3]')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false
@@ -1992,7 +1992,7 @@
             DataField: ="Turno"
             Default: =ThisItem.Turno
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"Turno")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,Turno)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =263
             Required: =true
@@ -2117,7 +2117,7 @@
             DataField: ="{Attachments}"
             Default: =ThisItem.'Datos adjuntos'
             DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,"{Attachments}")
+            DisplayName: =DataSourceInfo([@InventarioMantenimientoCilindros],DataSourceInfo.DisplayName,'Datos adjuntos')
             Fill: =RGBA(0, 0, 0, 0)
             Height: =50
             Required: =false

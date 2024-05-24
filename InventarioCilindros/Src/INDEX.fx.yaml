@@ -75,6 +75,7 @@
         ZIndex: =5
 
     "GALERIA As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
+        '#CopilotOverlayLabel': ="Filtrada"
         BorderColor: =RGBA(0, 188, 242, 1)
         DelayItemLoading: =true
         Height: =947

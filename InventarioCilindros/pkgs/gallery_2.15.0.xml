@@ -1,4 +1,4 @@
-<widget xmlns="http://openajax.org/metadata" spec="1.0" id="http://microsoft.com/appmagic/gallery" name="gallery" jsClass="AppMagic.Controls.Gallery.GalleryControl" version="2.14.1" styleable="true" runtimeCost="1" xmlns:appMagic="http://schemas.microsoft.com/appMagic">
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="http://microsoft.com/appmagic/gallery" name="gallery" jsClass="AppMagic.Controls.Gallery.GalleryControl" version="2.15.0" styleable="true" runtimeCost="1" xmlns:appMagic="http://schemas.microsoft.com/appMagic">
   <author name="Microsoft AppMagic" />
   <license type="text/html"><![CDATA[<p>TODO:  Need license text here.</p>]]></license>
   <description><![CDATA[GALLERY
@@ -248,6 +248,8 @@
     <appMagic:includeProperty name="minimumHeight" defaultValue="20" />
     <appMagic:includeProperty name="maximumWidth" defaultValue="1366" />
     <appMagic:includeProperty name="maximumHeight" defaultValue="768" />
+    <appMagic:includeProperty name="#CopilotOverlayLabel" defaultValue="##gallery_CopilotOverlayLabel##" hidden="true" />
+    <appMagic:includeProperty name="#CopilotOverlayVisible" defaultValue="false" hidden="true" />
   </appMagic:includeProperties>
   <!-- Display metadata providing property visibility, order, sections, and grouping in UI (e.g. properties panel) -->
   <appMagic:displayMetadata>
@@ -757,5 +759,9 @@
   </appMagic:conversion>
   <appMagic:conversion from="2.14.0" to="2.14.1">
     <!-- Adding showInCanvasInlineActionBar flag-->
+  </appMagic:conversion>
+  <appMagic:conversion from="2.14.1" to="2.15.0">
+    <appMagic:conversionAction type="add" name="#CopilotOverlayLabel" />
+    <appMagic:conversionAction type="add" name="#CopilotOverlayVisible" />
   </appMagic:conversion>
 </widget>
